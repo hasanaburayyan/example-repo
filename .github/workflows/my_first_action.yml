@@ -5,3 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello My First Github Action"
+  say_goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Goodbye from My First Github Action"
